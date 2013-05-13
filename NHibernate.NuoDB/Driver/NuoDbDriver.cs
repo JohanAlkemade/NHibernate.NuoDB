@@ -31,10 +31,9 @@ namespace NHibernate.Driver
 
         public override bool UseNamedPrefixInSql
         {
-            get { return true; }
+            get { return false; }
         }
-
-
+        
         protected override void InitializeParameter(System.Data.IDbDataParameter dbParam, string name, SqlTypes.SqlType sqlType)
         {
             base.InitializeParameter(dbParam, name, sqlType);

@@ -62,7 +62,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Entities\EntityBase.cs" />
+    <Compile Include="NuoDbDialectFixture.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
